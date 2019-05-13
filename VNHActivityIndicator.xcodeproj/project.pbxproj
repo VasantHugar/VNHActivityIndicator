@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		1B13DBCF22894D63000420ED /* VNHActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B13DBCD22894D63000420ED /* VNHActivityIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BD9640D22894E1A00C9C078 /* ActivityIndicatorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD9640822894E1A00C9C078 /* ActivityIndicatorTheme.swift */; };
+		1BD9640E22894E1A00C9C078 /* ActivityIndicator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD9640922894E1A00C9C078 /* ActivityIndicator.storyboard */; };
+		1BD9640F22894E1A00C9C078 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD9640A22894E1A00C9C078 /* ActivityIndicator.swift */; };
+		1BD9641022894E1A00C9C078 /* ActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD9640B22894E1A00C9C078 /* ActivityIndicatorViewController.swift */; };
+		1BD9641122894E1A00C9C078 /* ActivityIndicatorConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD9640C22894E1A00C9C078 /* ActivityIndicatorConfigure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B13DBCA22894D63000420ED /* VNHActivityIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VNHActivityIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B13DBCD22894D63000420ED /* VNHActivityIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNHActivityIndicator.h; sourceTree = "<group>"; };
 		1B13DBCE22894D63000420ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BD9640822894E1A00C9C078 /* ActivityIndicatorTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorTheme.swift; sourceTree = "<group>"; };
+		1BD9640922894E1A00C9C078 /* ActivityIndicator.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ActivityIndicator.storyboard; sourceTree = "<group>"; };
+		1BD9640A22894E1A00C9C078 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		1BD9640B22894E1A00C9C078 /* ActivityIndicatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorViewController.swift; sourceTree = "<group>"; };
+		1BD9640C22894E1A00C9C078 /* ActivityIndicatorConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorConfigure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +56,23 @@
 		1B13DBCC22894D63000420ED /* VNHActivityIndicator */ = {
 			isa = PBXGroup;
 			children = (
+				1BD9640722894E1A00C9C078 /* Resources */,
 				1B13DBCD22894D63000420ED /* VNHActivityIndicator.h */,
 				1B13DBCE22894D63000420ED /* Info.plist */,
 			);
 			path = VNHActivityIndicator;
+			sourceTree = "<group>";
+		};
+		1BD9640722894E1A00C9C078 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1BD9640822894E1A00C9C078 /* ActivityIndicatorTheme.swift */,
+				1BD9640922894E1A00C9C078 /* ActivityIndicator.storyboard */,
+				1BD9640A22894E1A00C9C078 /* ActivityIndicator.swift */,
+				1BD9640B22894E1A00C9C078 /* ActivityIndicatorViewController.swift */,
+				1BD9640C22894E1A00C9C078 /* ActivityIndicatorConfigure.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BD9640E22894E1A00C9C078 /* ActivityIndicator.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BD9640F22894E1A00C9C078 /* ActivityIndicator.swift in Sources */,
+				1BD9641022894E1A00C9C078 /* ActivityIndicatorViewController.swift in Sources */,
+				1BD9641122894E1A00C9C078 /* ActivityIndicatorConfigure.swift in Sources */,
+				1BD9640D22894E1A00C9C078 /* ActivityIndicatorTheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
